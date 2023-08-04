@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SanandaDey.me" />
+    <title>SanandaDey.me</title>
+
+    <!-- swipe class -->
+    <link rel="stylesheet" href="/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="home.css" />
+    <script
+      src="https://kit.fontawesome.com/134ed5d5df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="logo">SD</p>
+          <ul id="sidemenu">
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header">
+          <div class="header-text">
+            <p>Sananda Dey</p>
+            <h1 class="title">
+              <p>
+                I am a <span>Competetive Programmer</span> and passionate <span>Frontend Developer</span>.
+                I love to make cool projects and solve coding problems.
+              </p>
+            </h1>
+            <div class="title">
+              <button class="btn">
+                <a href="#contact"
+                  >Contact Me <i class="fa-regular fa-paper-plane"></i></a>
+              </button>
+              <button class="btn">
+                <a href="https://drive.google.com/file/d/1yv8BQFbj3InjxP_zvkCy2R1KpEzMg3ih/view?usp=sharing" download
+                  >Resume <i class="fa-solid fa-download"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+          <div class="headimg">
+            <img src="/p4.jpg" />
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- -----------skills----------  -->
+    <div class="board">
+      <div class="skillcontainer">
+        <div class="tab-list">
+          <p class="tab active title" onclick="opentab('skill')">Skills</p>
+          <p class="tab title" onclick="opentab('edu')">Education</p>
+        </div>
+        <div class="content activecn" id="skill">
+          <img src="/icons/c-.png" />
+          <img src="/icons/c-sharp.png" />
+          <img src="/icons/html-5.png" />
+          <img src="/icons/css.png" />
+          <img src="/icons/js.png" />
+          <img src="/icons/flutter.png" />
+          <img src="/icons/atom.png" />
+          <img src="/icons/python.png" />
+          <img src="/icons/mysql.png" />
+          <img src="/icons/bootstrap.png" />
+        </div>
+        <div class="content" id="edu">
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data reveal">
+                <div>
+                  <h3 class="qualification__title">
+                    Computer Science and Engineering
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Jalpaiguri Government Engineering College</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="fa-regular fa-star"></i>
+                    9.00 CGPA
+                  </div>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2020 - 2024
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data reveal">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Higher Secondary</h3>
+                  <span class="qualification__subtitle"
+                    >Aligunj R.R.B. Vidyalaya</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="fa-regular fa-star"></i>
+                    92.8%
+                  </div>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2018 - 2020
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data reveal">
+                <div>
+                  <h3 class="qualification__title">Secondary</h3>
+                  <span class="qualification__subtitle"
+                    >Aligunj R.R.B. Vidyalaya</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="fa-regular fa-star"></i>
+                    89.1%
+                  </div>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2014 - 2016
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- ------------project----------- -->
+
+    <div class="project" id="project">
+      <h2 class="title">Projects</h2>
+      <div class="projectcontainer swiper">
+        <div class="swiper-wrapper">
+        
+          <div class="card swiper-slide">
+            <img src="/screenshot/foodss.png" alt="" class="project_img" />
+            <p>
+              <span class="boldtxt">Food Hub</span>
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+            </p>
+            <div class="btns">
+              <button class="projectbtn">
+                <a href="https://github.com/19082002/Food_Hub">
+                  <i class="fa-brands fa-github"></i></a>
+              </button>
+              <button class="projectbtn">
+                <a href="https://github.com/19082002/Food_Hub">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="/screenshot/visual.png" alt="" class="project_img" />
+            <p>
+              <span class="boldtxt">Sorting Visualizer</span>
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+            </p>
+            <div class="btns">
+              <button class="projectbtn">
+                <a href="https://github.com/19082002/sorting-visualizer">
+                  <i class="fa-brands fa-github"></i></a>
+              </button>
+              <button class="projectbtn">
+                <a href="https://sorting-visualizer-ten-woad.vercel.app/">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="/screenshot/sudoku1.png" alt="" class="project_img" />
+            <p>
+              <span class="boldtxt">Sudoku Solver</span>
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+            </p>
+            <div class="btns">
+              <button class="projectbtn">
+                <a href="https://github.com/19082002/Sudoku-Solver">
+                  <i class="fa-brands fa-github"></i></a>
+              </button>
+              <button class="projectbtn">
+                <a href="https://19082002.github.io/Sudoku-Solver/home.html">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="/screenshot/todo.png" alt="" class="project_img" />
+            <p>
+              <span class="boldtxt">Todo List</span>
+              
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+            </p>
+            <div class="btns">
+              <button class="projectbtn">
+                <a href="https://github.com/19082002/Todo-List">
+                  <i class="fa-brands fa-github"></i></a>
+              </button>
+              <button class="projectbtn">
+                <a href="https://sananda-todo-list.netlify.app/">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="/screenshot/snake.png" alt="" class="project_img" />
+            <p>
+              <span class="boldtxt">Snake Game</span>
+              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+            </p>
+            <div class="btns">
+              <button class="projectbtn">
+                <a href="https://github.com/19082002/Snake-Game">
+                  <i class="fa-brands fa-github"></i></a>
+              </button>
+              <button class="projectbtn">
+                <a href="https://19082002.github.io/Snake-Game/snake/home">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- --------------contact----------- -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="title">Contact me</h1>
+            <p>sanandadey2002@gmail.com</p>
+            <p>7407388246</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/people/Sananda-Dey/pfbid032kJjqWcmdjPEotHmw79mK4FExZtV7v72jdQmFaez4ZHFH7S1Vb6iLoKv6yzK5u6al/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://github.com/19082002"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/sananda_2002/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/sananda-dey-2aa407203/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <from>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </from>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright @Sananda.Made with <i class="fa-solid fa-heart"></i> by
+        sananda dey
+      </div>
+    </div>
+  </div>
+    <footer>
+      <button class="footerbtn">
+        <a href="#header">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </button>
+    </footer>
+    
+    <script>
+      var tablinks = document.getElementsByClassName("tab");
+      var content = document.getElementsByClassName("content");
+      function opentab(el) {
+        for (tablink of tablinks) tablink.classList.remove("active");
+        for (cnt of content) cnt.classList.remove("activecn");
+        event.currentTarget.classList.add("active");
+        document.getElementById(el).classList.add("activecn");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+  <!-- swiper js -->
+  <script src="/swiper-bundle.min.js"></script>
+  <!-- js -->
+  <script src="/script.js"></script>
+</html>
