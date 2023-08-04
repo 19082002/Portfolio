@@ -6,10 +6,10 @@
     <meta name="description" content="SanandaDey.me" />
     <title>SanandaDey.me</title>
 
-    <!-- swipe class -->
-    <link rel="stylesheet" href="/swiper-bundle.min.css" />
+    <!-- swipe css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <script
       src="https://kit.fontawesome.com/134ed5d5df.js"
       crossorigin="anonymous"
@@ -320,30 +320,9 @@
         </a>
       </button>
     </footer>
-    
-    <script>
-      var tablinks = document.getElementsByClassName("tab");
-      var content = document.getElementsByClassName("content");
-      function opentab(el) {
-        for (tablink of tablinks) tablink.classList.remove("active");
-        for (cnt of content) cnt.classList.remove("activecn");
-        event.currentTarget.classList.add("active");
-        document.getElementById(el).classList.add("activecn");
-      }
-    </script>
-
-    <script>
-      var sidemenu = document.getElementById("sidemenu");
-      function openmenu() {
-        sidemenu.style.right = "0";
-      }
-      function closemenu() {
-        sidemenu.style.right = "-200px";
-      }
-    </script>
   </body>
   <!-- swiper js -->
-  <script src="/swiper-bundle.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
   <!-- js -->
-  <script src="/script.js"></script>
+  <script src="js/script.js"></script>
 </html>
