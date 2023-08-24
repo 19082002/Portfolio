@@ -262,14 +262,20 @@ color:var(--color);
 
 /* ----------project--------- */
 .project{
-    margin:20px 0;
+    margin:30px 0;
     text-align: center;
+}
+.project .title{
+    justify-content: center;
+    align-items: center;
 }
 .projectcontainer {
     /* width:80%; */
     /* overflow: initial; */
     /* margin: 5px; */
     text-align: center;
+    justify-content: center;
+    align-items: center;
     max-height: auto;
     /* max-width: 768px; */
 }
@@ -486,6 +492,9 @@ footer{
  }
  .card p{
     width:70%;
+ }
+ .project_img{
+    width:150px;
  }
 }
 @media only screen and (min-width:850px){
